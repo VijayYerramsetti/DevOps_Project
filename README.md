@@ -1,267 +1,188 @@
-<div align="center"><h1>Deploy Azure Infrastructure using Terraform Cloud</h1></div>
+<div align="center">
+  <h1><a href="https://shsarv.github.io/Machine-Learning-Projects/">Machine Learning Projects</a></h1>
+  <img alt="GIF" src="Resources/banner.gif" />
+</div>
 
-![Cover Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c66wndih4aa43cf493vd.png)
+<p align="center">
+  <a href="https://github.com/shsarv/Machine-Learning-Projects"><strong>Explore the docs »</strong></a>
+  <br/>
+  <a href="https://github.com/shsarv/Machine-Learning-Projects/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/shsarv/Machine-Learning-Projects/issues">Request Feature</a>
+</p>
+
+![Contributors](https://img.shields.io/github/contributors/shsarv/Machine-Learning-Projects?color=dark-green)
+![Forks](https://img.shields.io/github/forks/shsarv/Machine-Learning-Projects?style=social)
+![Stargazers](https://img.shields.io/github/stars/shsarv/Machine-Learning-Projects?style=social)
+![Issues](https://img.shields.io/github/issues/shsarv/Machine-Learning-Projects)
+![License](https://img.shields.io/github/license/shsarv/Machine-Learning-Projects)
+
+----
+
+## Project Overview
+
+Welcome to the **Machine Learning Projects Repository**! This collection encompasses various projects demonstrating core concepts in **machine learning**, **deep learning**, **natural language processing (NLP)**, and **computer vision**. It includes both **deployed applications** (built using **Flask**) and **GUI-based apps** (using **Tkinter**). These projects illustrate the potential of machine learning across domains, including medical diagnosis, human activity recognition, image processing, and more.
+
+## Project List
+
+Here’s a detailed list of all projects included in this repository:
+
+| Project Name                                | Description                                                                                                                                                    | Link |
+|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **AI Room Booking Chatbot**                 | An intelligent chatbot built with **IBM Watson Assistant** to facilitate room bookings.                                                                        | [AI Room Booking Chatbot](https://github.com/shsarv/Machine-Learning-Projects/tree/main/AI%20Room%20Booking%20Chatbot%20%5BIBM%20WATSON%5D) |
+| **Brain Tumor Detection (Flask App)**        | A deep learning-based **Flask** app for detecting brain tumors in MRI scans using **PyTorch**. Medical professionals can upload scans to receive predictions.  | [Brain Tumor Detection](https://github.com/shsarv/Machine-Learning-Projects/tree/main/BRAIN%20TUMOR%20DETECTION%20%5BEND%202%20END%5D) |
+| **Arrhythmia Classification**               | Predict and classify arrhythmias using **machine learning** algorithms and ECG data. Dataset from the [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Arrhythmia). | [Arrhythmia Classification](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Classification%20of%20Arrhythmia%20%5BECG%20DATA%5D) |
+| **Image Colorization**                      | A deep learning-based solution for colorizing black-and-white images using **OpenCV** and deep neural networks.                                                | [Image Colorization](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Colorize%20Black%20%26%20white%20images%20%5BOPEN%20CV%5D) |
+| **Diabetes Prediction (Flask App)**          | A web application for predicting the likelihood of diabetes based on health parameters. Built using **Flask** and **scikit-learn**.                            | [Diabetes Prediction](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Diabetes%20Prediction%20%5BEND%202%20END%5D) |
+| **Distracted Driver Detection**             | Detect different distracted behaviors of drivers (e.g., texting, eating) using **CNN** and **image classification** techniques.                               | [Distracted Driver Detection](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Distracted%20Driver%20Detection) |
+| **Driver Drowsiness Detection**             | Detect drowsiness in drivers using **OpenCV** and **CNN** models based on eye status, with real-time alerts for safety.                                        | [Driver Drowsiness Detection](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Drowsiness%20detection%20%5BOPEN%20CV%5D) |
+| **Emoji Generator Based on Emotions (Tkinter)** | A **Tkinter** GUI application that detects facial expressions in real time and generates emojis based on detected emotions.                                    | [Emoji Generator](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Emoji%20Generator) |
+| **Gender and Age Detection**                | A deep learning-based app that predicts the gender and age of a person using facial images and **OpenCV**.                                                     | [Gender and Age Detection](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Gender%20and%20age%20detection%20using%20deep%20learning) |
+| **Heart Disease Prediction**                | Predict the likelihood of heart disease based on medical attributes. Built using **scikit-learn** models, with 92% accuracy.                                   | [Heart Disease Prediction](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Heart%20Disease%20Prediction%20%5BEND%202%20END%5D) |
+| **Human Activity Recognition (LSTM)**       | Classify human activities using **2D pose estimation** and **LSTM**. Explore the application of limited dataset inputs for behavior prediction.                | [Human Activity Recognition](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Human%20Activity%20Detection) |
+| **Human Detection & Counting**              | An **OpenCV** project that detects humans in images/videos and counts the number of people present.                                                            | [Human Detection & Counting](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Human%20Detection%20%26%20Counting%20Project%20%5BOPEN%20CV%5D) |
+| **IPL Score Prediction**                    | Predict first-inning scores in IPL matches using **EDA** and various regression models (Linear, Decision Tree, Random Forest, etc.).                           | [IPL Score Prediction](https://github.com/shsarv/Machine-Learning-Projects/tree/main/IPL%20Score%20Prediction) |
+| **Iris Flower Classification**              | Classify iris flowers into different species based on petal and sepal measurements using classic machine learning algorithms.                                  | [Iris Flower Classification](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Iris%20Flower%20Classification) |
+| **Medical Chatbot (NLP)**                   | A medical chatbot built with **NLP** that uses a dataset of disease symptoms and responds with probable diagnoses.                                             | [Medical Chatbot](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Medical%20Chatbot%20%5BEND%202%20END%5D%20%5BNLP%5D) |
+| **Predict Employee Turnover**               | Predict employee turnover using **scikit-learn** decision trees and random forest models.                                                                     | [Predict Employee Turnover](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Predict%20Employee%20Turnover%20with%20scikitlearn) |
+| **Wine Quality Prediction**                 | Predict wine quality using physicochemical features like acidity, sugar, and pH with machine learning models.                                                 | [Wine Quality Prediction](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Wine%20Quality%20prediction) |
+
+
+## Technologies Used
+
+This repository includes a wide range of technologies and tools used in various machine learning and data science projects:
+
+- **Programming Languages:** Python
+- **Libraries/Frameworks:**
+  - Machine Learning: scikit-learn, TensorFlow, PyTorch, Keras
+  - NLP: IBM Watson, Natural Language Toolkit (NLTK), SpaCy
+  - Web Development: Flask
+  - Image Processing: OpenCV
+  - GUI Development: Tkinter
+  - Deep Learning: CNN, LSTM, DNN
+- **Tools & Platforms:** 
+  - IBM Watson, Google Colab, Jupyter Notebooks
+  - Deployed apps using Flask
+  - Git and GitHub for version control
+
+## Contributing  🌱 
+
+We welcome contributions to this project! If you would like to improve the existing codebase or contribute new features, feel free to submit a pull request. Before submitting, please ensure that you adhere to the following:
 
 ```
-Note: Tried of creating this doc as a demo with all process/steps in creating this project
+1. **Fork the repository** and create your feature branch:  
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+
+2. **Commit your changes**:  
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+
+3. **Push your branch** to GitHub:  
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+4. **Open a pull request** to the `main` branch.
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📊 Project Structure
+
+Each project follows a consistent structure for easy navigation and understanding:
+```plaintext
+ProjectName/
+│
+├── data/                  # Data files and datasets
+├── notebooks/             # Jupyter notebooks for experimentation and prototyping
+├── models/                # Trained machine learning models (if applicable)
+├── static/                # Static files (CSS, JS, images for Flask-based projects)
+├── templates/             # HTML templates (for Flask-based projects)
+├── src/                   # Core Python scripts for data preprocessing, model training, etc.
+├── app.py                 # Main application file for Flask-based projects
+├── README.md              # Project-specific readme file
+└── requirements.txt       # List of dependencies for the project
 ```
 
-## What is Terraform?
-[Terraform](https://www.terraform.io/) is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.
+Feel free to explore individual projects to understand the data flow and code structure.
 
-### Terraform Flow
-- First you have the terraform code.
-- Then we have Terraform Plan phase. The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
-- Terraform Apply phase executes the actions proposed in a Terraform plan.
-- And everything gets deployed over the CSP, here Azure.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/odtun8rbj9hgsb9brhuq.png)
+---
 
-## What is Terraform Cloud?
-[Terraform Cloud](https://cloud.hashicorp.com/products/terraform) is a managed service offering by HashiCorp that eliminates the need for unnecessary tooling and documentation for practitioners, teams, and organizations to use Terraform in production. It allows you to provision infrastructure in a remote environment that is optimized for the Terraform workflow.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7w2ijyuk5x6rrqy99gd1.png)
+## 🌍 Deployment
 
-In this project, we will be creating Azure Infrastructure using Terraform and will be deploying it over to Azure using Terraform Cloud.
+Some of the projects can be easily deployed on cloud platforms like **Heroku**, **AWS**, or **Azure**. The following steps outline a generic approach for deploying a Flask-based web app on Heroku:
 
-## Infrastructure Code
-We are creating a VM and resources related to it. 
-```
-# Configure Azure Provider
-terraform {
-  required_providers {
-     azurerm = {
-      source = "hashicorp/azurerm"
-      version = ">= 3.59.0"
-    } 
-  }
-  required_version = ">= 0.14.9"
-}
+1. **Install Heroku CLI**:  
+   Follow the instructions [here](https://devcenter.heroku.com/articles/heroku-cli).
 
-provider "azurerm" {
-  features {}
+2. **Login to Heroku**:  
+   ```bash
+   heroku login
+   ```
 
-  skip_provider_registration = "true"
-}
+3. **Create a new Heroku app**:  
+   ```bash
+   heroku create your-app-name
+   ```
 
-variable "prefix" {
-  default = "terraform"
-}
+4. **Push to Heroku**:  
+   Ensure your `Procfile` is correctly set up for Flask:
+   ```plaintext
+   web: gunicorn app:app
+   ```
+   Then push the project to Heroku:
+   ```bash
+   git push heroku main
+   ```
 
-resource "azurerm_resource_group" "rg" {
-  name     = "${var.prefix}-ResourceGroup"
-  location = "Central India"
-}
+5. **View your deployed app**:  
+   ```bash
+   heroku open
+   ```
 
-resource "azurerm_virtual_network" "vnet" {
-  name                = "${var.prefix}-VNet"
-  address_space       = ["10.0.0.0/16"]
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
-}
+You can follow similar steps for AWS (using **Elastic Beanstalk**) or Azure (using **App Services**).
 
-resource "azurerm_subnet" "internal" {
-  name                 = "${var.prefix}-internal"
-  resource_group_name  = azurerm_resource_group.rg.name
-  virtual_network_name = azurerm_virtual_network.vnet.name
-  address_prefixes     = ["10.0.2.0/24"]
-}
+## 🎯 Roadmap
 
-resource "azurerm_network_interface" "nic" {
-  name                = "${var.prefix}-NIC"
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
+### Future Enhancements:
+- [ ] Integrate **Explainable AI (XAI)** models for better understanding of predictions in complex models.
+- [ ] Add **Docker** support for easy containerization of all projects.
+- [ ] Incorporate **CI/CD pipelines** using GitHub Actions for automated testing and deployment.
+- [ ] Migrate some projects to use **streamlit** for interactive dashboards.
+- [ ] Explore **Reinforcement Learning** for game-based AI projects.
+- [ ] Expand the **NLP** section to include text summarization, translation, and more chatbot capabilities.
 
-  ip_configuration {
-    name                          = "tfconfiguration1"
-    subnet_id                     = azurerm_subnet.internal.id
-    private_ip_address_allocation = "Dynamic"
-  }
-}
+## 📚 Resources and References
 
-resource "azurerm_virtual_machine" "vm" {
-  name                  = "${var.prefix}-vm"
-  location              = azurerm_resource_group.rg.location
-  resource_group_name   = azurerm_resource_group.rg.name
-  network_interface_ids = [azurerm_network_interface.nic.id]
-  vm_size               = "Standard_DS1_v2"
+- **Official Python Documentation**: [Python.org](https://docs.python.org/3/)
+- **Flask Documentation**: [Flask.palletsprojects.com](https://flask.palletsprojects.com/en/2.0.x/)
+- **Scikit-learn User Guide**: [Scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
+- **Keras Documentation**: [Keras.io](https://keras.io/)
+- **TensorFlow Documentation**: [Tensorflow.org](https://www.tensorflow.org/)
+- **PyTorch Documentation**: [Pytorch.org](https://pytorch.org/docs/)
 
-  storage_image_reference {
-    publisher = "Canonical"
-    offer     = "UbuntuServer"
-    sku       = "16.04-LTS"
-    version   = "latest"
-  }
-  storage_os_disk {
-    name              = "myosdisk1"
-    caching           = "ReadWrite"
-    create_option     = "FromImage"
-    managed_disk_type = "Standard_LRS"
-  }
-  os_profile {
-    computer_name  = "hostname"
-    admin_username = "tfadmin"
-    admin_password = "Password1234!"
-  }
-  os_profile_linux_config {
-    disable_password_authentication = false
-  }
-  tags = {
-    environment = "staging"
-  }
-}
-```
+For a deeper understanding of AI, machine learning, and data science, I recommend the following courses:
+- **Coursera - Machine Learning by Andrew Ng**
+- **Udacity - AI for Everyone**
+- **Kaggle Learn - Data Science**
 
-## Setting up Terraform Cloud
+## ⭐ Acknowledgments
 
-1. Create Terraform Cloud Account - [Terraform Cloud](https://www.hashicorp.com/products/terraform)
-2. Create a Project in Terraform Cloud:
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y949ss9lexpd5ridhozu.png)
-3. Create a Workspace.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wdde76gof5yxc8vp1kpw.png)
-   - Choose Version control workflow
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n1gp6u6x1mez3kdvbt8n.png)
-   - Connect to a version control provider
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a8bat7opbkli0x9t1yrj.png)
-   - Choose your Azure Infrastructure repository from your repository list. You can check the advance settings if you want to configure the workflow.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kd5dop1al2pugnalmqew.png)
-   - Tap on **Create Workspace** button to create your workspace in terraform cloud Or Start new run from workspace overview page.
-4. You can directly start your plan phase.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ht6c0c2krj3o8wzmwgnk.png)
-5. You can verify in your projects page that your workspace has been created.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/osfgv461t6slsonxjoo3.png)
-6. Open your workspace to start new run.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u1z112gu2ntqq8nuz5vx.png)
-7. Choose your run type and start run.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q263knx3mxpb9lfj3ith.png)
-8. Ouch!! Errors!!
-   We are getting error in provider phase. The reason behind this is that we have authorized our infrastructure to connect and write over our Azure. We will be creating an App provide all the necessary details to our infrastructure.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0178a4rs54hqgjtjam3o.png)
+- The wonderful **Kaggle** community, which provided open datasets and insightful discussions.
+- **Udemy**, **Coursera**, and **edX** instructors who have helped me build a solid foundation in AI.
 
-## Authorizing Terraform Infrastructure to write over Azure
-- We are creating an App over Azure to authorize using Client Id, Client Secret and Tenant Id. So in your [Azure Portal](https://portal.azure.com/) move into Azure Active Directory, and open `App registrations` from left pane, And add a new registration.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4p1bc3pibj9hfog28oef.png)
-- Add your App details and register.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dja5n5a5hmppgm3alwsq.png)
-- So we have finally created our app.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c42vlbil4aviwcvtwqck.png)
-- To connect our Infrastructure we need 4 details:
-  - Client Id
-  - Client Secret
-  - Tenant Id
-  - Subscription Id
-We would be getting this one by one.
-- `Application (client) ID` is Client Id.
-  `Directory (tenant) ID` is Tenant Id.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n01jcz1nqjwwn4zjv0nu.png)
-- To get the Client Secret, we first need to create the secret.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j8zkh7k7zylxbporn2cx.png)
- - Add description and expiry of this secret which you're creating.
- - Copy this value under Value column, and save it somewhere as we wouldn't be able to access this later. This is our Client secret.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yggxgu21wa9o97nf315n.png)
-- Search Subscription from search box and open your subscription. Copy your subscription id.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4jmyk0g0p57mwqr518k.png)
-So now we have all the required values.
-- Let's add these values in our Infrastructure.
- - In the provider block add all four details. We would be saving the values in Terraform Cloud variables for security purpose.
-```
-provider "azurerm" {
-  features {}
+## License
 
-  skip_provider_registration = "true"
-  
-  # Connection to Azure
-  subscription_id = var.subscription_id
-  client_id = var.client_id
-  client_secret = var.client_secret
-  tenant_id = var.tenant_id
-}
-```
- - Add variables in Variables page.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/giji6tny99ldozgyp2yb.png)
-  - In `Key` add the words with var, i.e., var.`key`, and in `Value` add required Ids' and Secret.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jns0v92i8f6phwqqt8c2.png)
+Distributed under the MIT License. See [LICENSE](https://github.com/shsarv/Machine-Learning-Projects/blob/main/LICENSE.md) for more information.
 
-Let's rerun the workflow!
+## Maintained By
 
-Ohhhhh!!!! ERROR AGAIN!!!!
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pte3o0sq7lmlo9i8vem0.png)
-
-But we are still left with some more code :P
-We need to add variables.tf file mentioning about these variables.
-```
-variable "client_id" {
-  type = string
-}
-
-variable "client_secret" {
-  type = string
-}
-
-variable "subscription_id" {
-  type = string
-}
-
-variable "tenant_id" {
-  type = string
-}
-```
-
-
-And now finally we can get the results from Plan and Apply phase. Let's rerun the pipeline.
-- Wohooo!! Our Plan phase ran successfully:
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/or808kgvinu7t4hefah4.png)
-- Expand Plan phase to check what resources are getting created. And if every configuration is fine then tap on `Confirm & Apply` button at the end of phase. So by default the Apply phase does not run automatically, we need manual approval, this is to make sure that someone checks the Plan output and verifies everything and then accordingly approve for Apply or reject.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d1i9t9fbo1ggnxa2mxea.png)
-- Error again 🫠
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b359xrmnrnllyu5a813y.png)
-- It seems our Azure app don't have permission to add anything. Let's provide the contributor role to our app.
- - Under Subscription, got to Access Control (IAM) and Add a role there.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p31hlbpe9xfj2wwl8g4l.png)
- - Add a `Contributor` role under Privileged administrator roles.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dt9iw8nusgjp2thbkf9w.png)
- - Under Members tab, select our app as member.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/21huwn8l97928mwqcqs8.png)
- - And then tap on Review+Assign. So now our App has contributor role and can make changes over Azure subscription.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2lk9ervpboi0xnof2cjx.png)
-- Rerun the pipeline. And wollaahh!!
-Everything ran successfully!
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3fdkhg2fmcbwawd2skq9.png)
-
-Let's confirm over our Azure Portal too. 
-Yes we can see all our resources present under our subscription.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eyp2ult5uid4uerv6tmp.png)
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/shsarv"><img src="https://avatars2.githubusercontent.com/u/55739302?s=400&u=1e7714cb1cbe3437a527a877486c94611f0e7ab0&v=4" width="100px;" alt=""/><br /><sub><b>Sarvesh Sharma</b></sub></a><br /><a href="https://github.com/shsarv" title="github"><img src="https://img.shields.io/github/followers/shsarv?style=social"></a> <a href="https://twitter.com/sarveshroli/" title="twitter"><img src="https://img.shields.io/twitter/follow/sarveshroli?label=twitter&style=social"></a></td>
+   <tr>
+  <table>
