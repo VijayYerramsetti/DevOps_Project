@@ -1,3 +1,0 @@
----
-  - include_tasks: installation.yml
-  - include_tasks: configuration.yml
